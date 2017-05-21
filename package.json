@@ -1,0 +1,43 @@
+{
+  "name": "webpack-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "build": "./node_modules/.bin/webpack",
+    "lint": "tslint -c tslint.json src/**/*.ts --fix",
+    "start": "node dist/app.js"
+  },
+  "author": "balajivenkiteswaran@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/body-parser": "^1.16.3",
+    "@types/chai": "^3.5.2",
+    "@types/compression": "0.0.33",
+    "@types/express": "^4.0.35",
+    "@types/morgan": "^1.7.32",
+    "@types/sinon": "^2.2.2",
+    "@types/winston": "^2.3.2",
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1",
+    "nodemon": "^1.11.0",
+    "sinon": "^2.2.0",
+    "supertest": "^3.0.0",
+    "ts-loader": "^2.0.3",
+    "ts-node": "^3.0.4",
+    "tslint": "^5.2.0",
+    "typescript": "^2.3.2",
+    "webpack": "^2.5.1",
+    "webpack-node-externals": "^1.6.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "compression": "^1.6.2",
+    "config": "^1.26.1",
+    "connect-health-check": "^0.2.0",
+    "express": "^4.15.3",
+    "morgan": "^1.8.1",
+    "winston": "^2.3.1"
+  }
+}
